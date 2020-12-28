@@ -1,0 +1,517 @@
+/*
+Theme Name:     raja
+Version:        1.0
+Description:    Custom CSS
+*/
+/* 
+	All custom ids and classes used for the theme, starts with "raja".
+	For documentation page, it uses "rajaDoc".
+*/
+/* TABLE OF CONTENTS */
+/*
+	1. body
+		1.1 #raja-body
+	2. headlines
+		h1, h2, h3
+	3. headings
+		3.1 .raja-headings
+	4. about
+		4.1 .raja-about
+	5. services
+		5.1 .raja-services-1
+		5.2 .raja-services-2
+	6. count
+		6.1 .raja-count
+	7. reviews
+		7.1 .raja-reviews-1
+		7.2 .raja-reviews-2
+		7.3 .raja-reviews-3
+		7.4 .raja-reviews-img
+	8. team
+		8.1 .raja-team-1
+		8.2 .raja-team-2
+	9. blog
+		9.1 .raja-blog-1
+		9.2 .raja-blog-2
+	10. video
+		10.1 .raja-video
+	11. contact
+		11.1 .raja-contact
+	12. newsletter
+		12.1 .raja-newsletter
+	13. parallax
+		13.1 .raja-parallax-1
+		13.2 .raja-parallax-2
+		13.3 .raja-parallax-3
+		13.4 .raja-parallax-4
+	14. navigation
+		14.1 #raja-navbar
+	15. link show
+		15.1 .raja-link-show
+	16. links
+		16.1 .raja-link-1
+		16.2 .raja-link-2
+	17. tab
+		17.1 .raja-tab
+	18. button
+		18.1 .raja-button
+	19. card-columns
+		19.1 .raja-card-columns
+	20. images zoom in
+		20.1 .raja-zoom
+	21. scroll top
+		21.1 .raja-scrolltop
+		21.2 .raja-scroll
+		21.3 .raja-scroll .fas
+	22. input
+		22.1 .raja-field input
+	23. textarea
+		23.1 .raja-field textarea
+	24. height of all elements
+		24.1 *
+	25. footer
+		25.1 #raja-footer
+	26. documentation
+		26.1 .rajaDoc-scroll
+		26.2 .rajaDoc-pre
+		26.3 #rajaDoc-navbar
+		26.4 #rajaDoc-nav-pills
+		26.5 .rajaDoc-nav-link
+		<li id="work" class="dropdown btn-group">
+                        <button class="btn btn-secondary btn-sm" type="button"><a href="work.html">Work</a></button>
+                        <button type="button" class="btn btn-sm btn-secondary dropdown-toggle dropdown-toggle-split" data-bs-toogle="dropdown" aria-expanded="false">
+                            <span class="visually-hidden"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a href="#all">ALL</a></li>
+                            <li><a href="#creative">Creative</a></li>
+                            <li><a href="#personal">Personal</a></li>
+                        </ul>
+					</li>
+
+					<p> <hr><hr><hr><hr><hr><hr></p>
+										<p> <hr><hr><hr><hr><hr></p>
+*/
+/* END OF TABLE OF CONTENTS */
+/* CUSTOM CSS */
+/* BODY */
+#raja-body{
+	background: url(BedugulTemple.jpg) no-repeat;
+	color: black;
+	font-size: 18px;
+	height: 100vh;
+	background-size: auto;
+	font-family: 'Varela Round', sans-serif;
+}
+#raja-body a{
+	color: darkgreen;
+}
+#myVideo{
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+}
+/* END OF BODY */
+/* HEADLINES */
+h1,h2,h3{
+	font-family: 'Black Han Sans', sans-serif;
+}
+/* END OF HEADLINES */
+/* HEADINGS background-color: #343330;*/
+.raja-headings{
+	background:transparent;
+	color: #ffffff;
+    border-right: 40px solid lightseagreen;
+	word-wrap: break-word;
+}
+/* END OF HEADINGS */
+/* ABOUT */
+.raja-about{
+	background-image: url(Mine.jpg);
+	background-repeat: no-repeat;
+	background-size: 300px 200px;
+	color: #F3F3F3;
+	border-left: 40px solid #1B1524;
+}
+/* END OF ABOUT */
+/* SERVICES */
+.raja-services-1{
+	background: url(PHNOMPENH.jpg) no-repeat;
+	background-size: cover;
+	color: #F3F3F3;
+	border-right: 40px solid #B3001B;
+}
+.raja-services-2{
+	background-color: #FCE694;
+	color: #000000;
+	border: 0;
+	border-radius: 0;
+}
+/* END OF SERVICES */
+/* COUNT */
+.raja-count{
+	background-color: transparent;
+	color: #F3F3F3;
+    border-left: 40px solid crimson;
+	word-wrap: break-word;
+	
+}
+#count {
+	background-color:black;
+}
+/* END OF COUNT */
+/* REVIEWS */
+.raja-reviews-1{
+	background: url(Czech-Republic.jpg) no-repeat;
+	background-size: cover;
+	color: #ffffff;
+    border-left: 40px solid #4D5359;
+}
+.raja-reviews-2{
+	color: #ffffff;
+	padding: 0;
+	margin: 0;
+}
+.raja-reviews-3{
+	color:#ffffff
+}
+#reviews .raja-reviews-img{
+    width: 120px;
+    height: 80px;
+}
+/* END OF REVIEWS */
+/* TEAM */
+.raja-team-1{
+	background-color: #1F5673;
+	color: #F3F3F3;
+	border-right: 40px solid #60463B;
+}
+#team .raja-team-2{
+	background-color: #FFFBFC;
+	color: #000000;
+	border: 0;
+	border-radius: 0;
+}
+/* END OF TEAM */
+/* BLOG */
+.raja-blog-1{
+	background-color: #041F1E;
+	color: #F3F3F3;
+	border-left: 40px solid #702632;
+}
+.raja-blog-2{
+	background-color: #041F1E;
+	color: #F3F3F3;
+	border: 0;
+	border-radius: 0;
+}
+/* END OF BLOG */
+/* VIDEO */
+
+#videoBG {
+	width: 100%;
+	height:auto ;
+
+}
+.raja-video{
+    height: auto;
+}
+/* END OF VIDEO */
+/* CONTACT */
+.raja-contact{
+	background-color: #5E503F;
+	color: #F3F3F3;
+	border-left: 40px solid #432E36;
+}
+/* END OF CONTACT */
+/* NEWSLETTER */
+.raja-newsletter{
+	background-color: #343330;
+	color: #F3F3F3;
+	border-right: 40px solid #4D5359;
+}
+/* END OF NEWSLETTER */
+/* PARALLAX */
+.raja-parallax-1{
+	height: 100%;
+    background-image: url("https://drive.google.com/file/d/1ZTSkuJJRIkN_OGjuuWPKcUBkQQdDwc3P/view?usp=sharing");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+	background-size: cover;
+}
+.raja-parallax-2{
+	height: 100%;
+    background: none;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+	background-size: cover;
+}
+.raja-parallax-3{
+	height: 100%;
+    background-image: url("Norway.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+	background-size: cover;
+}
+.raja-parallax-4{
+	height: 100%;
+    background-image: url("https://via.placeholder.com/1920x1280/.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+	background-size: cover;
+}
+/* END OF PARALLAX */
+#texClor a{
+	color: #ffffff;
+	margin-top: 100px;
+}
+hr{
+	border: none;
+	height: 1px;
+}
+/* NAVIGATION */
+#raja-navbar{
+	background-color:transparent;
+	color: #F3F3F3;
+}
+#raja-navbar.solid{
+	background-color:transparent;
+	color: #F3F3F3;
+	transition-delay: 0.2s;
+	transition-property: all;
+	transition-timing-function: ease-in-out;
+}
+#raja-navbar .raja-nav-link{
+	color: darkgreen;
+}
+#raja-navbar .raja-nav-link:hover{
+	color:lightseagreen;
+}
+#expands #work{
+	transition: all 0.3s ease-in-out;
+	margin-top:  3px;
+	padding: 5px;
+}
+#work a{
+	color:darkgreen;
+	text-decoration: none;
+}
+#expands #work:hover{
+	background-color:transparent;
+}
+.dropdown-menu{
+	display: none;
+	position: absolute;
+	background-color:transparent;
+	box-shadow: 2px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown-menu a{
+	color: #fff;
+	font-size: 16px !important;
+	text-decoration: none;
+}
+.dropdown:hover .dropdown-menu{
+	display: block;
+	transition: all 0.5s ease-in-out;
+}
+.dropdown .dropdown-menu a:hover{
+	background-color: lightcoral;
+}
+/* END OF NAVIGATION */
+/* LINK SHOW */
+.raja-link-show{
+    padding-top: 60px;
+    margin-top: -60px;
+}
+/* END OF LINK SHOW */
+/* LINKS */
+.raja-link-1{
+	color: #343330;
+}
+.raja-link-1:hover{
+	color: #1F5673;
+}
+.raja-link-2{
+	color: #F3F3F3;
+}
+.raja-link-2:hover{
+	color: #E8F7EE;
+}
+.raja-link-3{
+	color: #F3F3F3;
+}
+.raja-link-3:hover{
+	color: #E3EDE9;
+	text-decoration: none;
+}
+/* END OF LINKS */
+/* TAB */
+.raja-tab .nav-link, .raja-tab .show>.nav-link{
+	color: #F3F3F3;
+	border-radius: 0;
+}
+.raja-tab .nav-link:hover, .raja-tab .show>.nav-link{
+	color: #DBDBDB;
+	border-radius: 0;
+}
+.raja-tab .nav-link.active, .raja-tab .show>.nav-link{
+	background-color: #334E58;
+	color: #F3F3F3;
+	border-radius: 0;
+}
+/* END OF TAB */
+/* BUTTON */
+.raja-button{
+	background-color: #B3001B;
+	color: #F3F3F3;
+	border-radius: 0;
+}
+.raja-button:hover{
+	background-color: #1F0318;
+	color: #F3F3F3;
+}
+/* END OF BUTTON */
+/* CARD COLUMNS */
+@media (min-width: 576px){
+    .raja-card-columns{
+        column-count: 1;
+    }
+	.card-count>.raja-card-columns{
+        column-count: 1;
+    }
+}
+@media (min-width: 768px){
+    .raja-card-columns{
+        column-count: 1;
+    }
+	.card-count>.raja-card-columns{
+        column-count: 1;
+    }
+}
+@media (min-width: 992px){
+    .raja-card-columns{
+        column-count: 3;
+    }
+	.card-count>.raja-card-columns{
+        column-count: 4;
+    }
+}
+@media (min-width: 1200px){
+    .raja-card-columns{
+        column-count: 3;
+    }
+	.card-count>.raja-card-columns{
+        column-count: 4;
+    }
+}
+/* END OF CARD COLUMNS */
+/* IMAGES ZOOM IN */
+.raja-zoom img {
+	width: 100%;
+	height: auto;
+	transition: all 0.5s ease-in-out;
+}
+.raja-zoom:hover img {
+    transform: scale(1.1);
+}
+/* END OF IMAGES ZOOM IN */
+/* SCROLL TOP */
+.raja-scrolltop{
+	display: none;
+	width: 100%;
+	margin: 0 auto;
+	position: fixed;
+	bottom: 20px;
+	right: 10px;
+}
+.raja-scroll{
+	position: absolute;
+	right: 20px;
+	bottom: 20px;
+	background-color: #c0b1a8;
+	padding: 20px;
+	text-align: center;
+	margin: 0 0 0 0;
+	cursor: pointer;
+	transition: 0.5s;
+}
+.raja-scroll:hover{
+	transition: 0.5s;	
+}
+.raja-scroll .fas{
+	font-size: 30px;
+	color: #000000;
+	margin-top: -5px;
+	margin-left: 1px;
+	transition: 0.5s;
+}
+/* END OF SCROLL TOP */
+/* INPUT */
+.raja-field input{
+	border: 0;
+	border-radius: 0;
+}
+/* END OF INPUT */
+/* TEXTAREA */
+.raja-field textarea{
+	border: 0;
+	border-radius: 0;
+}
+/* END OF TEXTAREA */
+/* HEIGHT OF ALL ELEMENTS */
+*{
+    min-height: 0.01px;
+}
+/* END OF HEIGHT OF ALL ELEMENTS */
+/* FOOTER */
+#raja-footer{
+	background-color: #121420;
+	color: #F3F3F3;
+}
+/* END OF FOOTER */
+/* DOCUMENTATION */
+.rajaDoc-scroll{
+	position: relative;
+	height: 100vh;
+	overflow-y: scroll;
+}
+.rajaDoc-pre{
+	color: #DBDBDB;
+}
+#rajaDoc-navbar{
+	margin: 0;
+	padding: 0;
+}
+#rajaDoc-nav-pills{
+	background-color: #684551;
+	color: #F3F3F3;
+	width: 100vw;
+	margin: 0;
+	padding: 0;
+	transition-delay: 0.2s;
+	transition-property: all;
+	transition-timing-function: ease-in-out;
+}
+#rajaDoc-nav-pills .rajaDoc-nav-link{
+	background-color: #684551;
+	color: #F3F3F3;
+	border: 0;
+	border-radius: 0;
+}
+#rajaDoc-nav-pills .rajaDoc-nav-link:hover{
+	background-color: #1F0318;
+	color: #F3F3F3;
+}
+#rajaDoc-nav-pills .rajaDoc-nav-link.active,#rajaDoc-nav-pills .show>.rajaDoc-nav-link{
+	background-color: #041F1E;
+	color: #F3F3F3;
+	border-radius: 0;
+}
+/* END OF DOCUMENTATION */
+/* END OF CUSTOM CSS */
